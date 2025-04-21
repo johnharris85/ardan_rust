@@ -1,0 +1,3 @@
+[workspace]
+resolver = "2"
+members = ["authentication", "login", "login_manager", "variables", "threads", "divide_work", "thread_builder", "scoped_threads", "footgun", "mutexes", "rwlocks", "deadlocks", "channels", "workers", "workqueue"]
