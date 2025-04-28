@@ -1,0 +1,10 @@
+[package]
+name = "shared_data"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+bincode = { version = "2.0.1", features = ["serde"] }
+crc32fast = "1.4.2"
+serde = { version = "1.0.219", features = ["derive"] }
+sysinfo = { version = "0.34.2", features = ["apple-app-store"] }

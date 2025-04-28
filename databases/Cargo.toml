@@ -1,0 +1,13 @@
+[package]
+name = "databases"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+dotenv = "0.15.0"
+futures = "0.3.31"
+futures-util = "0.3.31"
+sqlx = { version = "0.8.5", features = ["runtime-tokio-native-tls", "sqlite"] }
+thiserror = "2.0.12"
+tokio = { version = "1.44.2", features = ["full"] }
